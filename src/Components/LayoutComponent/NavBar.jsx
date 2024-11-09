@@ -18,12 +18,20 @@ const NavBar = ( {isMenuOpen} ) => {
                 </NavLink>
             </li>
             <li>
-                <NavLink to='/about-us' className={({isActive}) => isActive ? style.active : '' }>
+                <NavLink to='/services' className={({isActive}) => isActive ? style.active : '' }>
                     SERVICES
                 </NavLink>
             </li>
-            <li>PACKAGES</li>
-            <li>CONTACT US</li>
+            <li>
+                <NavLink to='/packages' className={({isActive}) => isActive ? style.active : '' }>
+                PACKAGES
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to='/contact-us' className={({isActive}) => isActive ? style.active : '' }>
+                CONTACT US
+                </NavLink>
+            </li>
         </ul>
         <div className={style['get-intouch']}><a href="">GET IN TOUCH</a></div>
         
