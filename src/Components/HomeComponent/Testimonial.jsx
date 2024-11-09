@@ -37,7 +37,7 @@ const Testimonial = () => {
     <div className={styles.testiContainer}>
         <h2 data-aos="fade-up">Testimonial</h2>
         <div className={styles.leftBorder} data-aos="fade-down"></div>
-        <h3 data-aos="slide-left">Let's Know What Our Client Says.......................</h3>
+        <h3 data-aos="slide-right">Let's Know What Our Client Says.......................</h3>
             <div className={styles.testiWrapper}>
                 {testimonials.map((testimony) => (
                     <div key={testimony.id}>
