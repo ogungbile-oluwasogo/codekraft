@@ -1,0 +1,118 @@
+.testiContainer{
+    position: relative;
+    width: 90%;
+    margin:auto;
+}
+
+.testiContainer h2 {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0px;
+    font-size: 36px;
+    color: #FF8E00;
+}
+
+.leftBorder{
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 34px;
+    background: #FF8E00;
+    width: 8px;
+}
+
+.testiContainer h3 {
+    margin: 15px 0px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Crimson Text';
+}
+
+.testiContainer .testiWrapper {
+    width: 95%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+
+.testiContainer .testiWrapper div{
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(26, 6, 65, 0.3);
+    border-radius: 10px;
+    margin: 30px 0px;
+    padding: 50px 10px;
+    width: 29%;
+    height: 380px;
+}
+
+.testiContainer .testiWrapper div img:first-of-type {
+    width: 115.45px;
+    height: 115.45px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.testiContainer .testiWrapper div img:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.testiContainer .testiWrapper div h5{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a4444;
+}
+
+.testiContainer .testiWrapper div p{
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 500;
+    color: #4a4444;
+}
+
+@media (max-width: 1050px) {
+    .testiContainer h3{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 820px) {
+    .testiContainer .testiWrapper {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .testiContainer .testiWrapper div {
+        width: 90%;
+        height: 320px;
+        margin: 20px auto;
+    }
+
+    .testiContainer .testiWrapper div img:first-of-type {
+        width: 130px;
+        height: 130px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+
+    .testiContainer h2{
+        font-size: 30px;
+    }
+
+    .leftBorder {
+        height: 27px;
+        width: 5px;
+    }
+
+    .testiContainer h3{
+        font-size: 23px;
+    }
+}

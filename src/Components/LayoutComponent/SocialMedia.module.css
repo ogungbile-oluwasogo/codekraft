@@ -1,0 +1,7 @@
+.socialContainer {
+display: flex;
+}
+
+.socialContainer svg{
+padding: 0px 5px;
+}

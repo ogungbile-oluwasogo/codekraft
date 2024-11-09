@@ -1,0 +1,224 @@
+.container{
+    position: relative;
+    width: 90%;
+    margin:auto;
+}
+
+.container h2 {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0px;
+    font-size: 36px;
+    color: #FF8E00;
+}
+
+.leftBorder{
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 34px;
+    background: #FF8E00;
+    width: 8px;
+}
+
+.container h3 {
+    margin: 15px 0px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Crimson Text';
+}
+
+.packages {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.packages .packages-container{
+    width: 30%;
+    margin: 0px 20px;
+}
+
+
+.packages div img {
+width: 100%;
+object-fit: cover;
+height: 323px;
+border-radius: 10px 10px 0px 0px;
+display: block;
+}
+
+.packages div .divIcon{
+    background: #001F3F;
+    margin: 0px 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.packages div .divIcon2{
+    background: #FF8E00;
+    margin: 0px 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.packages div .divIcon3 {
+    background: #2393B2;
+    margin: 0px 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.packages div .graphic {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px 0px;
+    background: #FF8E00;
+    font-style: normal;
+    margin: 0;
+}
+
+.packages div .web {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding: 8px 0px;
+    background: #FFF;
+    color: #FF8E00;
+    font-style: normal;
+    margin: 0;
+}
+
+.packages div .uiux {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    background: #1A0641;
+    padding: 8px 0px;
+    font-style: normal;
+    margin: 0;
+}
+
+.packages div .divList {
+    position: relative;
+    background: #001F3F;
+    padding: 10px;
+    height: 340px;
+    margin: 0;
+}
+
+.packages div .divList2 {
+    position: relative;
+    background:#FF8E00;
+    padding: 10px;
+    height: 340px;
+    margin: 0;
+}
+
+.packages div .divList3 {
+    position: relative;
+    background:#2393B2;
+    padding: 10px;
+    height: 340px;
+    margin: 0;
+}
+
+.packages div .divList p, .packages div .divList2 p, .packages div .divList3 p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+text-wrap: wrap;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.divList div, .divList2 div, .divList3 div{
+    text-align: right;
+    margin-top: 30px;
+}
+
+
+.divList div button, .divList2 div button, .divList3 div button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+@media (max-width:1150px) {
+    .packages div .divList p, .packages div .divList2 p, .packages div .divList3 p{
+        font-weight: 600;
+        font-size: 19px;
+        }
+}
+
+@media (max-width:1100px) {
+    .packages div .divList p, .packages div .divList2 p, .packages div .divList3 p{
+        font-weight: 600;
+        font-size: 14px;
+        }
+}
+
+
+@media (max-width: 1030px) {
+    .packages div .graphic, .packages div .web, .packages div .uiux{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 930px) {
+    .container h3 {
+        font-size: 40px;
+    }
+
+    .packages {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .packages .packages-container{
+        width: 85%;
+        margin: 20px auto;
+    }
+
+    .packages div .divList p, .packages div .divList2 p, .packages div .divList3 p{
+        font-weight: 600;
+        font-size: 18px;
+        }
+}
+
+@media (max-width: 720px) {
+
+    .container{
+        margin:100px auto 0px auto;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container h2 {
+        font-size: 32px;
+    }
+    .container h3 {
+        font-size: 28px;
+    }
+}

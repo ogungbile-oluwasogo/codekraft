@@ -1,0 +1,335 @@
+.flexContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.flexContainer .flexOne h2{
+    height: 47px;
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FF8E00;
+}
+
+.flexOne .leftBorder {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 5px;
+    margin-top: 40px;
+    height: 25px;
+    background: #FF8E00;
+}
+
+.flexContainer .flexOne h3{
+    width: 550px;
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+}
+
+.flexContainer .flexOne .levels{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 5px;
+}
+
+.flexContainer .flexOne .levels .basic {
+background: #FF8E00;
+text-align: center;
+padding: 10px;
+box-shadow: 0px 5px 10px rgba(26, 6, 65, 0.3);
+border-radius: 50px;
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+.flexContainer .flexOne .levels .medium {
+    background: #1A0641;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgba(26, 6, 65, 0.3);
+    border-radius: 50px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    }
+
+.flexContainer .flexOne .levels .pro {
+        background: #2393B2;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0px 5px 10px rgba(26, 6, 65, 0.3);
+        border-radius: 50px;
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+
+.flexContainer .flexTwo  div{
+    position: absolute;
+    width: 428px;
+    height: 398px;
+    bottom: 70px;
+    right: -30px;
+    background: #FF8E00;
+    border-radius: 10px;
+}
+
+.flexContainer .flexTwo div{
+    position: absolute;
+    width: 428px;
+    height: 398px;
+    bottom: 30px;
+    right: -25px;
+    background: #FF8E00;
+    border-radius: 10px;
+}
+
+.flexContainer .flexTwo img {
+    position: absolute;
+    object-fit: cover;
+    width: 428px;
+    height: 398px;
+    right: 0;
+    bottom: 60px;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+
+/* Start styling checkbox */
+
+
+/* Hide the default checkbox */
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Style the label to make it look like a checkbox */
+  .custom-checkbox {
+    display: flex;
+    margin: 12px 0px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Create the custom checkbox square */
+  .custom-checkbox .checkmark {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 4px;
+    position: relative;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Style the checkmark (visible only when checked) */
+  .custom-checkbox input[type="checkbox"]:checked + .checkmark {
+    background-color:#FF8E00; /* Checked color */
+  }
+  
+  .custom-checkbox .checkmark::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none; /* Hide initially */
+  }
+  
+  /* Show the checkmark when the checkbox is checked */
+  .custom-checkbox input[type="checkbox"]:checked + .checkmark::after {
+    display: block;
+  }
+
+  /* Mobile Styling */
+
+  @media (max-width: 1230px) {
+    .flexContainer .flexOne h3{
+      width: 500px;
+      font-size: 35px;
+    }
+  }
+
+  @media (max-width: 1170px) {
+    .flexContainer .flexOne h3{
+      width: 400px;
+      font-size: 30px;
+    }
+  }
+
+  @media (max-width: 1040px) {
+    .flexContainer .flexTwo img {
+      width: 380px;
+      height: 340px;
+  }
+
+  .flexContainer .flexTwo div {
+    width: 380px;
+    height: 340px;
+}
+}
+
+@media (max-width: 980px) {
+  .flexContainer .flexOne h3{
+    width: 350px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 930px) {
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+}
+
+.flexContainer .flexOne h3 {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+
+.custom-checkbox {
+  margin: 20px 0px;
+}
+
+.flexContainer .flexOne .levels{
+  display: grid;
+  width: 50%;
+  grid-template-columns: 1fr 1fr;
+  gap: 2;
+}
+
+.flexContainer .flexOne .levels .basic {
+  grid-column: 1;
+  grid-row: 1;
+  border-radius: 5px;
+  /* display: flex; */
+}
+
+.flexContainer .flexOne .levels .medium {
+  grid-column: 2;
+  grid-row: 1;
+  border-radius: 5px;
+  /* display: flex; */
+}
+
+.flexContainer .flexOne .levels .pro {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  border-radius: 5px;
+  /* display: flex; */
+}
+
+.flexContainer .flexTwo img {
+  width: 300px;
+  height: 300px;
+  bottom: 50px;
+  right: -30px;
+}
+
+.flexContainer .flexTwo div {
+  width: 300px;
+  height: 300px;
+  bottom: 33px;
+  right: -45px;
+}
+}
+
+@media (max-width: 720px) {
+  .flexContainer .flexOne .levels .basic, .flexContainer .flexOne .levels .medium, .flexContainer .flexOne .levels .pro {
+    font-size: 14px;
+  }
+
+  .custom-checkbox {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 700px) {
+  .flexContainer {
+    width: 90%;
+  }
+  .flexContainer .flexOne h2 {
+    font-size: 31px;
+    
+  }
+  .flexContainer .flexOne h3 {
+    font-size: 24px;
+    width: 300px;
+    line-height: 30px;
+  }
+
+  .flexOne .leftBorder {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 5px;
+    margin-top: 40px;
+    height: 25px;
+    background: #FF8E00;
+}
+
+  .flexContainer .flexTwo img {
+    width: 50%;
+    height: 250px;
+    right: -10px;
+  }
+  
+  .flexContainer .flexTwo div {
+    width: 50%;
+    height: 250px;
+    right: -20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .flexContainer .flexOne .levels .basic, .flexContainer .flexOne .levels .medium, .flexContainer .flexOne .levels .pro {
+    font-size: 12px;
+  }
+
+  .custom-checkbox {
+    font-size: 12px;
+  }
+
+  .flexContainer .flexTwo img,   .flexContainer .flexTwo div {
+    width: 48%;
+    height: 200px;
+  }
+
+  .flexContainer .flexTwo img {
+    bottom: 70px;
+    right: -5px;
+  }
+
+  .flexContainer .flexTwo div {
+    bottom: 60px;
+    right: -10px;
+  }
+}
+  
