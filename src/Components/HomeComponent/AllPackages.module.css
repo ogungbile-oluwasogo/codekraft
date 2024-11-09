@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
-    overflow-x: hidden;
     width: 80%;
 }
 

@@ -2,7 +2,7 @@
     position: relative;
     width: 90%;
     margin:auto;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .testiContainer h2 {

@@ -52,7 +52,7 @@ const AllPackages = () => {
         </div>
         <div className={styles.flexTwo}>
             <img src="/allpackages.png" alt="" data-aos="slide-right"/>
-            <div data-aos="slide-left"></div>
+            <div data-aos="fade-up"></div>
         </div>
       </section>
     </div>
