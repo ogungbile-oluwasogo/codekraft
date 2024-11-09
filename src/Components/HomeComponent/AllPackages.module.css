@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
+    overflow-x: hidden;
     width: 80%;
 }
 
@@ -324,12 +325,12 @@ color: #FFFFFF;
 
   .flexContainer .flexTwo img {
     bottom: 70px;
-    right: -5px;
+    right: 4px;
   }
 
   .flexContainer .flexTwo div {
     bottom: 60px;
-    right: -10px;
+    right: 0px;
   }
 }
   

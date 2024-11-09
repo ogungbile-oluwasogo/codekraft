@@ -2,6 +2,7 @@
     position: relative;
     width: 90%;
     margin:auto;
+    overflow-x: hidden;
 }
 
 .container h2 {
