@@ -13,7 +13,7 @@ const NavBar = ( {isMenuOpen, showNavHandler} ) => {
                         
             </li>
             <li>
-                <NavLink to='/about-us' className={({isActive}) => isActive ? style.active : '' } onClick={showNavHandler}>
+                <NavLink to='/aboutus' className={({isActive}) => isActive ? style.active : '' } onClick={showNavHandler}>
                     ABOUT US
                 </NavLink>
             </li>

@@ -10,7 +10,7 @@ const router = createBrowserRouter([
     element: <Layouts />,
     children: [
       {index: true, element: <Home />},
-      {path: '/about-us', element: <AboutUs />}
+      {path: '/aboutus', element: <AboutUs />}
     ]
   }
 ])
