@@ -2,13 +2,15 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home'
 import Layouts from './Layouts/Layouts'
+import AboutUs from './pages/AboutUs'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Layouts />,
     children: [
-      {index: true, element: <Home />}
+      {index: true, element: <Home />},
+      {path: '/about-us', element: <AboutUs />}
     ]
   }
 ])

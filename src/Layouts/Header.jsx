@@ -8,6 +8,10 @@ import NavBar from "../Components/LayoutComponent/NavBar";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const showNavHandler = () => {
+    setIsMenuOpen((onshow) => !onshow);
+  };
+
   return (
   <>
     <div className={style.container}>
@@ -38,7 +42,7 @@ const Header = () => {
         <div className={style['mobile-menu']}><Menu isMenuOpen = {isMenuOpen} setIsMenuOpen = {setIsMenuOpen} /></div>
       </div>
     </div>
-    <NavBar isMenuOpen = {isMenuOpen}/>
+    <NavBar isMenuOpen = {isMenuOpen} showNavHandler = {showNavHandler}/>
   </>
   )
 }
