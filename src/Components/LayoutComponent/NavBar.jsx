@@ -9,8 +9,7 @@ const NavBar = ( {isMenuOpen, showNavHandler} ) => {
             <li>
                 <NavLink to='/' className={({isActive}) => isActive ? style.active : '' } onClick={showNavHandler}>
                     HOME
-                </NavLink>
-                        
+                </NavLink> 
             </li>
             <li>
                 <NavLink to='/aboutus' className={({isActive}) => isActive ? style.active : '' } onClick={showNavHandler}>
