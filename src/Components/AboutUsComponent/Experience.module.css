@@ -1,0 +1,59 @@
+.experience {
+    background: #1A0641;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.experience h2 {
+font-family: 'Crimson Text';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 36px;
+margin: 10px 0px;
+
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.experience p{
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 790px) {
+    .experience h2 {
+        font-size: 35px;
+    }
+
+    .experience p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 700px) {
+    .experience {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .experience .middleBorder {
+        width: 77px;
+        height: 5px;
+        margin: 0 auto;
+        background: #FF8E00;
+    }
+
+    .experience h2 {
+        font-size: 30px;
+    }
+
+    .experience p{
+        font-size: 14px;
+    }
+}
