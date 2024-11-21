@@ -66,6 +66,47 @@
     background: #FF8E00;
 }
 
+.item3 h4 {
+width: 235px;
+font-family: 'Crimson Text';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+margin: 10px 0px;
+}
+
+.item3 .outerChart {
+    width: 281.61px;
+    height: 3.46px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+
+.item3 .innerChart1 {
+width: 274px;
+height: 3.46px;
+background: #24EB59;
+}
+
+.item3 .innerChart2 {
+    width: 276px;
+    height: 3.46px;
+    background: #24EB59;
+    }
+
+.item3 .innerChart3 {
+    width: 272px;
+    height: 3.46px;
+    background: #24EB59;
+}
+
+.item3 .innerChart4 {
+    width: 259px;
+    height: 3.46px;
+    background: #24EB59;
+}
+
 @media (max-width: 1290px) {
     .TeamSkill .item1 h3{
         font-weight: 700;

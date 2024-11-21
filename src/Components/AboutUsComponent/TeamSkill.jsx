@@ -19,7 +19,22 @@ const TeamSkill = () => {
         <img src="/skill.jpg" alt="" />
       </div>
       <div className={styles.item3}>
-          Content
+          <h4>Web Development</h4>
+          <div className={styles.outerChart}>
+            <div className={styles.innerChart1}></div>
+          </div>
+          <h4>Graphic Design</h4>
+          <div className={styles.outerChart}>
+            <div className={styles.innerChart2}></div>
+          </div>
+          <h4>UI/UX Design</h4>
+          <div className={styles.outerChart}>
+            <div className={styles.innerChart3}></div>
+          </div>
+          <h4>Digital Marketing</h4>
+          <div className={styles.outerChart}>
+            <div className={styles.innerChart4}></div>
+          </div>
       </div>
     </div>
   )
