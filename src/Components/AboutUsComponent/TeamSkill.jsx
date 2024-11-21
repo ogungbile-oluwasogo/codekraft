@@ -15,11 +15,11 @@ const TeamSkill = () => {
           UI/UX design: Figma, Adobe XD, Sketch
         </p>
       </div>
-      <div className={styles.item3}>
-          Content
-      </div>
       <div className={styles.item2}>
         <img src="/skill.jpg" alt="" />
+      </div>
+      <div className={styles.item3}>
+          Content
       </div>
     </div>
   )
