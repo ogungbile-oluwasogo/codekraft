@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import style from "./Header.module.css";
 import Logo from "../Components/LayoutComponent/Logo";
 import Menu from "../Components/LayoutComponent/Menu";
@@ -17,7 +17,9 @@ const Header = () => {
     <div className={style.container}>
       <div className={style['flex-container']}>
         <div>
-            <Logo/>
+          <Link to='/'>
+            <Logo />
+          </Link>
         </div>
 
         {/* Desktop Navbar */}

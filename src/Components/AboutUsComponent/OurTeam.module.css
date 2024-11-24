@@ -1,0 +1,105 @@
+.ourTeam{
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.ourTeam h2{
+font-family: 'Crimson Text';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 10px;
+color: #FF8E00;
+}
+
+.ourTeam .sideBorder {
+    position: absolute;
+    width: 6px;
+    height: 34px;
+    top: -14px;
+    background: #FF8E00;
+}
+
+.ourTeam h3{
+font-family: 'Crimson Text';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+}
+
+.ourTeam .flexTeam {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ourTeam .flexTeam .innerflexTeam{
+    width: 396px;
+    padding-bottom:10px ;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(26, 6, 65, 0.3);
+    border-radius: 10px;
+}
+
+.ourTeam .flexTeam .innerflexTeam img{
+    width: 99%;
+    height: 395px;
+    object-fit: cover;
+    object-position: 100% 0%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.flexTeam .innerflexTeam p {
+    color: #4a4444;
+    font-weight: 500;
+}
+
+@media (max-width: 1050px) {
+    .ourTeam h3{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 970px) {
+    .ourTeam .flexTeam {
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .ourTeam .flexTeam .innerflexTeam {
+        margin: auto;
+        /* width: 80%; */
+    }
+}
+
+@media (max-width: 600px) {
+    .ourTeam h2{
+        font-size: 24px;
+    }
+
+    .ourTeam .sideBorder {
+        position: absolute;
+        width: 4px;
+        height: 26px;
+        top: -10px;
+        background: #FF8E00;
+    }
+
+    .ourTeam h3{
+        width: 70%;
+        margin: 10px auto;
+        font-weight: 700;
+        font-size: 18px;
+        }
+
+    .ourTeam .flexTeam .innerflexTeam {
+        width: 80%;
+        /* height: 300px; */
+    }
+
+    .ourTeam .flexTeam .innerflexTeam img {
+        height: 330px;
+    }
+}
