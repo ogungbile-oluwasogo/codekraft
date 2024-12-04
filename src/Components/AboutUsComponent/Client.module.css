@@ -1,0 +1,226 @@
+
+.client {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 85%;
+    margin: 45px auto;
+}
+
+.clientOne h2 {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FF8E00;
+}
+
+.clientOne .sideBorder{
+    position: absolute;
+    width: 8px;
+    height: 34px;
+    top: 35px;
+    left: -50px;
+    background: #FF8E00;
+}
+
+.clientOne h3{
+font-family: 'Crimson Text';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+width: 574px;
+line-height: 40px;
+}
+
+.clientOne p{
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    width: 532px;
+    line-height: 26px;
+    color: #4A4444;
+}
+
+.clientOne .clientLogo {
+    display: flex;
+}
+
+.clientOne .clientLogo img{
+    width: 162px;
+    height: 65px;
+    margin-right: 20px;
+    filter: drop-shadow(0px 3px 5px rgba(26, 6, 65, 0.3));
+}
+
+.clientTwo img {
+    width: 479px;
+    height: 460px;
+    object-fit: cover;
+    filter: drop-shadow(0px 5px 20px rgba(26, 6, 65, 0.3));
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    .clientOne h3{
+        font-weight: 700;
+        font-size: 30px;
+        width: auto;
+        line-height: 40px;
+        }
+
+    .clientOne p{
+            width: auto;
+        }
+
+    .clientOne .clientLogo img{
+        width: 140px;
+        height: 65px;
+        margin-right: 18px;
+    }
+
+    .clientTwo img {
+        width: 430px;
+        height: 440px;
+        margin: 0px 20px;
+    }
+        
+}
+
+@media (max-width: 1130px) {
+    .clientOne .clientLogo img{
+        width: 110px;
+        height: 60px;
+        margin-right: 18px;
+    }
+
+    .clientTwo img {
+        width: 400px;
+        height: 420px;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 1130px) {
+    .clientOne .clientLogo img{
+        width: 90px;
+        height: 50px;
+        margin-right: 18px;
+    }
+
+    .clientOne h2 {
+        font-family: 'Crimson Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .clientOne h3{
+        font-weight: 700;
+        font-size: 26px;
+        }
+
+    .clientOne .sideBorder{
+        width: 6px;
+        height: 30px;
+        top: 24px;
+        left: -50px;
+        background: #FF8E00;
+        position: absolute;
+    }
+}
+
+@media (max-width: 920px) {
+    .client {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 50px auto;
+    }
+
+    .clientOne {
+        text-align: center;
+    }
+
+    .clientOne .sideBorder{
+        width: 6px;
+        height: 30px;
+        top: 24px;
+        left: 0px;
+    }
+
+    .clientOne h3{
+        font-weight: 700;
+        font-size: 26px;
+        width: 70%;
+        margin: auto;
+        }
+
+    .clientOne .clientLogo {
+        position: absolute;
+        flex-direction: column;
+        bottom:9px;
+        left: 20px;
+        gap: 20px;
+    }
+
+    .clientOne .clientLogo img{
+        width: 200px;
+        height: 90px;
+        margin-right: 18px;
+    }
+
+    .clientTwo {
+        text-align: right;
+    }
+
+    .clientTwo img {
+        width: 50%;
+        height: 320px;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .clientOne h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .clientOne .sideBorder{
+        width: 6px;
+        height: 26px;
+        top: 22px;
+        left: 0px;
+    }
+
+    .clientOne h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .clientOne p {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .clientOne .clientLogo {
+        bottom:6px;
+        gap: 10px;
+    }
+  
+    .clientOne .clientLogo img{
+        width: 94px;
+        height: 39px;
+        margin-right: 18px;
+    }
+
+    .clientTwo img {
+        width: 50%;
+        height: 138px;
+        margin: 0px 20px;
+    }
+}
