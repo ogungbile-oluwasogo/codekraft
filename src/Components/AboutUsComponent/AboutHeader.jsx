@@ -11,8 +11,8 @@ const AboutHeader = () => {
             <h2>
             Elevate Your Digital Presence with us today!!!
             </h2>
+        </div>
     </div>
-  </div>
   )
 }
 

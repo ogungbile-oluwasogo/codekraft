@@ -22,7 +22,7 @@ const NavBar = ( {isMenuOpen, showNavHandler} ) => {
                 </NavLink>
             </li>
             <li>
-                <NavLink to='/packages' className={({isActive}) => isActive ? style.active : '' }>
+                <NavLink to='/packages' className={({isActive}) => isActive ? style.active : '' } onClick={showNavHandler}>
                 PACKAGES
                 </NavLink>
             </li>

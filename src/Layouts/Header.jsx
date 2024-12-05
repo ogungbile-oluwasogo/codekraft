@@ -36,7 +36,11 @@ const Header = () => {
                     </NavLink>
                 </li>
                 <li>SERVICES</li>
-                <li>PACKAGES</li>
+                <li>
+                    <NavLink to='/packages' className={({isActive}) => isActive ? style.active : '' }>
+                    PACKAGES
+                    </NavLink>
+                </li>
                 <li>CONTACT US</li>
             </ul>
         </div>
