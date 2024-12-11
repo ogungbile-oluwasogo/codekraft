@@ -3,7 +3,7 @@ import style from './PackagesHeader.module.css';
 const PackagesHeader = () => {
   return (
     <div className={style['image-container']}>
-        <img src="/packagesheader.jpg" alt="" />
+        <img src="/packagesheader.jpg" alt="Our packages" />
         <div className={style.overlay}>
             <div className={style.frame1}></div>
             <h1>CODEKRAFT PACKAGES</h1>
