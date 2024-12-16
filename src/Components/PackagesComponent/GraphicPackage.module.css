@@ -1,4 +1,4 @@
-.webConatainer {
+.graphicConatainer {
     position: relative;
     width: 80%;
     padding: 20px;
@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.webConatainer h2{
+.graphicConatainer h2{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -23,18 +23,18 @@
     top: -30px;
     left: 50%;
     transform: translateX(-50%);
-    background: #FF8E00;
+    background: #1A0641;
     border-radius: 5px;
 }
 
-.webConatainer .packagesWrapper {
+.graphicConatainer .packagesWrapper {
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: auto;
 }
 
-.webConatainer .packagesWrapper .basic, .medium, .pro{
+.graphicConatainer .packagesWrapper .basic, .medium, .pro{
     position: relative;
     /* isolation: isolate; */
     width: 234px;
@@ -44,13 +44,13 @@
     padding: 20px;
 }
 
-.webConatainer .packagesWrapper .basic h3{
+.graphicConatainer .packagesWrapper .basic h3{
     position: absolute;
     top: -60px;
     left: 50%;
     transform: translateX(-50%);
     width: 180px;
-    background: #855F30;
+    background: #FF8E00;
     border-radius: 10px;
     width: 85px;
     padding: 28px 50px;
@@ -63,13 +63,13 @@
 }
 
 
-.webConatainer .packagesWrapper .medium h3{
+.graphicConatainer .packagesWrapper .medium h3{
     position: absolute;
     top: -60px;
     left: 50%;
     transform: translateX(-50%);
     width: 180px;
-    background: #B4772B;
+    background: #001F3F;
     border-radius: 10px;
     width: 85px;
     padding: 28px 50px;
@@ -81,13 +81,13 @@
     color: #FFFFFF;
 }
 
-.webConatainer .packagesWrapper .pro h3{
+.graphicConatainer .packagesWrapper .pro h3{
     position: absolute;
     top: -60px;
     left: 50%;
     transform: translateX(-50%);
     width: 180px;
-    background: #B88518;
+    background: #18B842;
     border-radius: 10px;
     width: 85px;
     padding: 28px 50px;
@@ -100,7 +100,7 @@
 }
 
 
-.webConatainer .packagesWrapper h4{
+.graphicConatainer .packagesWrapper h4{
     margin-top: 50px;
     font-family: 'Crimson Text';
     font-style: italic;
@@ -110,7 +110,7 @@
     color: #1A0641;
 }
 
-.webConatainer .packagesWrapper p{
+.graphicConatainer .packagesWrapper p{
     font-family: 'Crimson Text';
     font-style: normal;
     font-weight: 400;
@@ -119,11 +119,11 @@
     color: #4A4444;
 }
 
-.webConatainer .packagesWrapper span{
+.graphicConatainer .packagesWrapper span{
     font-size: 11px;
 }
 
-.webConatainer .packagesWrapper button{
+.graphicConatainer .packagesWrapper button{
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -137,52 +137,52 @@
     border: none;
 }
 
-.webConatainer .packagesWrapper button:hover{
+.graphicConatainer .packagesWrapper button:hover{
     background: #047e24;
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
 
 @media (max-width: 1230px) {
-    .webConatainer .packagesWrapper {
+    .graphicConatainer .packagesWrapper {
         width: 95%;
     }
 
-    .webConatainer .packagesWrapper .basic h3,
-     .webConatainer .packagesWrapper .medium h3,
-     .webConatainer .packagesWrapper .pro h3 {
+    .graphicConatainer .packagesWrapper .basic h3,
+     .graphicConatainer .packagesWrapper .medium h3,
+     .graphicConatainer .packagesWrapper .pro h3 {
         padding: 24px 40px ;
      }
 }
 
 @media (max-width: 1010px) {
-    .webConatainer .packagesWrapper h4 {
+    .graphicConatainer .packagesWrapper h4 {
         font-size: 16px;
     }
 }
 
 @media (max-width: 900px) {
-    .webConatainer h2{
+    .graphicConatainer h2{
         font-size: 28px;
     }
 
-    .webConatainer .packagesWrapper .basic h3,
-    .webConatainer .packagesWrapper .medium h3,
-    .webConatainer .packagesWrapper .pro h3 {
+    .graphicConatainer .packagesWrapper .basic h3,
+    .graphicConatainer .packagesWrapper .medium h3,
+    .graphicConatainer .packagesWrapper .pro h3 {
        padding: 18px 30px ;
     }
 }
 
 @media (max-width: 900px) {
-    .webConatainer .packagesWrapper{
+    .graphicConatainer .packagesWrapper{
         flex-direction: column;
     }
     
-    .webConatainer h2{
+    .graphicConatainer h2{
         font-size: 20px;
     }
 
-    .webConatainer .packagesWrapper .basic, .medium, .pro{
+    .graphicConatainer .packagesWrapper .basic, .medium, .pro{
         position: relative;
         /* isolation: isolate; */
         width: 250px;
@@ -192,22 +192,22 @@
 }
 
 @media (max-width: 580px) {
-    .webConatainer h2{
+    .graphicConatainer h2{
         padding: 12px;
         font-size: 13px;
         top: -20px;
         width: 60%;
     }
 
-    .webConatainer .packagesWrapper .basic, .medium, .pro{
+    .graphicConatainer .packagesWrapper .basic, .medium, .pro{
 
         width: 80%;
 
     }
 
-    .webConatainer .packagesWrapper .basic h3,
-    .webConatainer .packagesWrapper .medium h3,
-    .webConatainer .packagesWrapper .pro h3 {
+    .graphicConatainer .packagesWrapper .basic h3,
+    .graphicConatainer .packagesWrapper .medium h3,
+    .graphicConatainer .packagesWrapper .pro h3 {
        padding: 14px 24px ;
        font-size: 20px;
        top: -50px;
