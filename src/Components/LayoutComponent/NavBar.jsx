@@ -27,7 +27,7 @@ const NavBar = ( {isMenuOpen, showNavHandler} ) => {
                 </NavLink>
             </li>
             <li>
-                <NavLink to='/contact-us' className={({isActive}) => isActive ? style.active : '' }>
+                <NavLink to='/contact' className={({isActive}) => isActive ? style.active : '' } onClick={showNavHandler}>
                 CONTACT US
                 </NavLink>
             </li>

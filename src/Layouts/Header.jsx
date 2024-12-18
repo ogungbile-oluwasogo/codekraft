@@ -41,7 +41,11 @@ const Header = () => {
                     PACKAGES
                     </NavLink>
                 </li>
-                <li>CONTACT US</li>
+                <li>
+                    <NavLink to='/contact' className={({isActive}) => isActive ? style.active : '' }>
+                    CONTACT US
+                    </NavLink>
+                </li>
             </ul>
         </div>
         <div className={style['get-intouch']}><a href="">GET IN TOUCH</a></div>

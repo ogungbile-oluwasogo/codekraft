@@ -8,7 +8,7 @@ import WebDevPackage from '../Components/PackagesComponent/WebDevPackage'
 
 const OurPackages = () => {
   return (
-    <div>
+    <>
       <PackagesHeader />
       <ChoosePackage />
       <WebDevPackage />
@@ -16,7 +16,7 @@ const OurPackages = () => {
       <UxPackage />
       <DigitalMarketing />
       <Testimonial />
-    </div>
+    </>
   )
 }
 
