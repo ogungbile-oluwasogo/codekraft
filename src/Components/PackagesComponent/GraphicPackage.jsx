@@ -2,7 +2,7 @@ import styles from './GraphicPackage.module.css';
 
 const GraphicPackage = () => {
   return (
-<div className={styles.graphicConatainer}>
+    <div className={styles.graphicConatainer}>
       <h2>GRAPHIC DEVELOPMENT</h2>
       <div className={styles.packagesWrapper}>
         <div className={styles.basic}>
