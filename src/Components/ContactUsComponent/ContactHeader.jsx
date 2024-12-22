@@ -2,15 +2,12 @@ import styles from './ContactHeader.module.css';
 
 const ContactHeader = () => {
   return (
-    <div className={styles['image-container']}>
-        <img src="/aboutus.jpg" alt="" />
+    <div className={styles['contact-container']}>
+        <img src="/contact.jpg" alt="" />
         <div className={styles.overlay}>
             <div className={styles.frame1}></div>
-            <h1>ABOUT CODEKRAFT LTD.</h1>
-            <p>Crafting Digital Experiences with Code and Creativity</p>
-            <h2>
-            Elevate Your Digital Presence with us today!!!
-            </h2>
+            <h1>REACH OUT TO CODEKRAFT </h1>
+            <p>Your Digital Journey Starts Here - Get in Touch</p>
         </div>
     </div>
   )
