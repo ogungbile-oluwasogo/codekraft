@@ -10,7 +10,13 @@ const ContactBody = () => {
             <div className={styles.sideBorder}></div>
             <h2>Let’s Get In Touch</h2>
             <h3>Stay Tuned & Keep Connected With Us...........</h3>
-            <p>CodeCraft offers expert UI/UX design, web development, and graphic design services. We deliver high-quality, user-centric solutions with a holistic approach. Our personalized service ensures timely project delivery and ongoing support. With expertise in latest technologies, we drive results and client satisfaction. Trust CodeCraft for innovative digital solutions that elevate your brand.</p>
+            <p className={styles.hidePara}>CodeCraft offers expert UI/UX design, web development, and graphic design services. 
+                We deliver high-quality, user-centric solutions with a holistic approach. 
+                Our personalized service ensures timely project delivery and ongoing support. 
+                With expertise in latest technologies, we drive results and client satisfaction. 
+                Trust CodeCraft for innovative digital solutions that elevate your brand.
+            </p>
+            <div className={styles.bottomBorder}></div>
             <div className={styles.contactFlex}>
                 <div>
                     <AddressSvg />
