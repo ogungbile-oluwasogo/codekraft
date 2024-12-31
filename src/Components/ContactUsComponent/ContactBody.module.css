@@ -222,7 +222,7 @@
     .contact1 .contactFlex .flexAbsolute{
         position: absolute;
         top: -30px;
-        left: 52%;
+        left: 50%;
         transform: translate(-50%, -50%);
     }
     .contact1 .contactFlex div{
