@@ -14,7 +14,7 @@ const ContactBody = () => {
                 We deliver high-quality, user-centric solutions with a holistic approach. 
                 Our personalized service ensures timely project delivery and ongoing support. 
                 With expertise in latest technologies, we drive results and client satisfaction. 
-                Trust CodeCraft for innovative digital solutions that elevate your brand.
+                Trust CodeCraft for innovative digital solutions that elevate your brand.
             </p>
             <div className={styles.bottomBorder}></div>
             <div className={styles.contactFlex}>
@@ -22,7 +22,7 @@ const ContactBody = () => {
                     <AddressSvg />
                     <p>Osogbo, Osun State, Nigeria</p>
                 </div>
-                <div>
+                <div className={styles.flexAbsolute}>
                     <EmailSvg />
                     <p>codekraft@admin.com</p>
                 </div>
