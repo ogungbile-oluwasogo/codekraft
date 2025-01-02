@@ -14,7 +14,7 @@ const Client = () => {
           "CodeKraft's passion for innovative solutions aligns with our vision. 
           Their professionalism and reliability solidify our trust."
         </p>
-        <div className={styles.clientLogo} data-aos="zoom-in">
+        <div className={styles.clientLogo}>
           <img src="/meg.png" alt="Meg logo" />
           <img src="/charcoal.png" alt="Charcoal" />
           <img src="/neerahlogo.png" alt="Neerah Cakes" />

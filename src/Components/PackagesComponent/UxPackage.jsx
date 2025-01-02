@@ -18,7 +18,7 @@ const UxPackage = () => {
           <hr />
           <button>Order Now</button>
       </div>
-      <div className={styles.medium} data-aos="fade-left">
+      <div className={styles.medium} data-aos="zoom-out">
           <h3>MEDIUM</h3>
           <h4>#150,000 +, (Annually)</h4>
           <p>5-7, Pages websites; <span>Blog, Corporate,</span></p>
