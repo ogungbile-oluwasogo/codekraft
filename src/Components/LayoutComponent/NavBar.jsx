@@ -32,7 +32,7 @@ const NavBar = ( {isMenuOpen, showNavHandler} ) => {
                 </NavLink>
             </li>
         </ul>
-        <div className={style['get-intouch']}><a href="">GET IN TOUCH</a></div>
+        <div className={style['get-intouch']}><NavLink to="">GET IN TOUCH</NavLink></div>
         
       </nav>
     </div>
