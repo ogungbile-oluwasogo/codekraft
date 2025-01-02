@@ -48,7 +48,7 @@ const Header = () => {
                 </li>
             </ul>
         </div>
-        <div className={style['get-intouch']}><a href="">GET IN TOUCH</a></div>
+        <div className={style['get-intouch']}><NavLink to="/contact">GET IN TOUCH</NavLink></div>
         <div className={style['mobile-menu']}><Menu isMenuOpen = {isMenuOpen} setIsMenuOpen = {setIsMenuOpen} /></div>
       </div>
     </div>

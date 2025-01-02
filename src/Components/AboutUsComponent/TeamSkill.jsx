@@ -6,8 +6,8 @@ const TeamSkill = () => {
       <div className={styles.item1}>
         <h2>Our Team Skill</h2>
         <div className={styles.sideBorder}></div>
-        <h3>Let’s Know Our Professional Team Skills........... </h3>
-        <p>Our CodeKraft team excels in:
+        <h3 data-aos="fade-up">Let’s Know Our Professional Team Skills........... </h3>
+        <p data-aos="zoom-in">Our CodeKraft team excels in:
           Programming languages: Html, Python, Java, JavaScript, C++, C#
           Development frameworks: React, Angular, Vue.js, Django, Flask
           Databases: MySQL, MongoDB, PostgreSQL, SQL Server
@@ -15,10 +15,10 @@ const TeamSkill = () => {
           UI/UX design: Figma, Adobe XD, Sketch
         </p>
       </div>
-      <div className={styles.item2}>
+      <div className={styles.item2} data-aos="flip-up">
         <img src="/skill.jpg" alt="" />
       </div>
-      <div className={styles.item3}>
+      <div className={styles.item3} data-aos="fade-left">
           <h4>Web Development</h4>
           <div className={styles.outerChart}>
             <div className={styles.innerChart1}></div>

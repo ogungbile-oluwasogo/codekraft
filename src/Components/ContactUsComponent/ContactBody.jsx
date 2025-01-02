@@ -6,18 +6,18 @@ const ContactBody = () => {
   return (
     <div>
       <div className={styles.flexContact}>
-        <div className={styles.contact1}>
+        <div className={styles.contact1} data-aos="fade-up">
             <div className={styles.sideBorder}></div>
             <h2>Let’s Get In Touch</h2>
             <h3>Stay Tuned & Keep Connected With Us...........</h3>
-            <p className={styles.hidePara}>CodeCraft offers expert UI/UX design, web development, and graphic design services. 
+            <p className={styles.hidePara} data-aos="fade-up">CodeCraft offers expert UI/UX design, web development, and graphic design services. 
                 We deliver high-quality, user-centric solutions with a holistic approach. 
                 Our personalized service ensures timely project delivery and ongoing support. 
                 With expertise in latest technologies, we drive results and client satisfaction. 
                 Trust CodeCraft for innovative digital solutions that elevate your brand.
             </p>
             <div className={styles.bottomBorder}></div>
-            <div className={styles.contactFlex}>
+            <div className={styles.contactFlex} data-aos="fade-up">
                 <div>
                     <AddressSvg />
                     <p>Osogbo, Osun State, Nigeria</p>
@@ -32,8 +32,8 @@ const ContactBody = () => {
                 </div>
             </div>
         </div>
-        <div className={styles.contact2}>
-            <form action="">
+        <div className={styles.contact2} data-aos="fade-up">
+            <form action="" data-aos="zoom-in">
                 <div>
                     <input type="text" placeholder='First Name' />
                     <input type="text" placeholder='Last Name' />

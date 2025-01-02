@@ -2,10 +2,10 @@ import styles from './UxPackage.module.css';
 
 const UxPackage = () => {
   return (
-    <div className={styles.uxConatainer}>
+    <div className={styles.uxConatainer} data-aos="fade-up">
     <h2>UI/UX DESIGN</h2>
     <div className={styles.packagesWrapper}>
-      <div className={styles.basic}>
+      <div className={styles.basic} data-aos="flip-down">
           <h3>BASIC</h3>
           <h4>#100,000 +, (Annually)</h4>
           <p>3-5, Pages websites; <span>Blog, Corporate,</span></p>
@@ -18,7 +18,7 @@ const UxPackage = () => {
           <hr />
           <button>Order Now</button>
       </div>
-      <div className={styles.medium}>
+      <div className={styles.medium} data-aos="fade-left">
           <h3>MEDIUM</h3>
           <h4>#150,000 +, (Annually)</h4>
           <p>5-7, Pages websites; <span>Blog, Corporate,</span></p>
@@ -31,7 +31,7 @@ const UxPackage = () => {
           <hr />
           <button>Order Now</button>
       </div>
-      <div className={styles.pro}>
+      <div className={styles.pro} data-aos="flip-up">
           <h3>PRO</h3>
           <h4>#300,000 +, (Annually)</h4>
           <p>10+, Pages websites; <span>portal, Gov, logistics, etc</span></p>

@@ -3,7 +3,7 @@ import styles from './Client.module.css';
 const Client = () => {
   return (
     <div className={styles.client}>
-      <div className={styles.clientOne}>
+      <div className={styles.clientOne} data-aos="fade-up">
         <h2>CODEKRAFT Clients</h2>
         <div className={styles.sideBorder}></div>
         <h3>
@@ -14,13 +14,13 @@ const Client = () => {
           "CodeKraft's passion for innovative solutions aligns with our vision. 
           Their professionalism and reliability solidify our trust."
         </p>
-        <div className={styles.clientLogo}>
+        <div className={styles.clientLogo} data-aos="zoom-in">
           <img src="/meg.png" alt="Meg logo" />
           <img src="/charcoal.png" alt="Charcoal" />
           <img src="/neerahlogo.png" alt="Neerah Cakes" />
         </div>
       </div>
-      <div className={styles.clientTwo}>
+      <div className={styles.clientTwo} data-aos="flip-up">
         <img src="/happy_client.jpg" alt="our happy client image" />
       </div>
     </div>
