@@ -11,10 +11,10 @@ background: #041938;
 }
 
 .footerWrapper .footerGrid .social {
-    display: grid;
-    grid-template-columns: 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
     /* flex-direction: column; */
-    /* gap: 10px; */
+    /* gap: -200px; */
 }
 
 .footerWrapper .footerGrid div h2{
