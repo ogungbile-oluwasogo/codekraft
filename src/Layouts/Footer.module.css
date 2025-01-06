@@ -27,7 +27,12 @@ color: #FFFFFF;
 }
 
 .footerWrapper .footerGrid div a {
+    position: relative;
     display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    gap: 0px 10px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -37,6 +42,22 @@ color: #FFFFFF;
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.footerWrapper .footerGrid div a p{
+    position: absolute;
+    left: 20px;
+    top: -17px;
+}
+
+@media(max-width: 600px) {
+    .footerWrapper .footerGrid div a p{
+        position: absolute;
+        left: 20px;
+        top: -15px;
+    }
+}
+
+
 
 .reservedFooter{
     text-align: center;
@@ -49,10 +70,9 @@ font-weight: 700;
 font-size: 13px;
 line-height: 16px;
 color: #041938;
-
-
-
 }
+
+
 
 @media (max-width: 950px) {
     .footerWrapper .footerGrid div a{
