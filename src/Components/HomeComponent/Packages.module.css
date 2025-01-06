@@ -162,6 +162,13 @@ color: #FFFFFF;
     font-weight: 600;
     font-size: 16px;
     font-family: 'Montserrat';
+    cursor: pointer;
+    
+}
+
+.divList div button:hover, .divList2 div button:hover, .divList3 div button:hover {
+    transition:0.3s ease-in-out;
+    padding: 12px 25px;
 }
 
 @media (max-width:1150px) {

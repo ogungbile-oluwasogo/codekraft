@@ -5,6 +5,7 @@ import UxSvg from './UxSvg';
 import WebSvg from './WebSvg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -31,7 +32,7 @@ const Packages = () => {
                 <p>- Print Design (brochures, flyers, business cards)</p>
                 <p>- Packaging Design (labels, boxes, containers)</p>
                 <p>- Editorial Design (magazines, newspapers, books)</p>
-                <div><button>See More</button></div>
+                <div><Link to="packages"><button data-aos="zoom-in">See More</button></Link></div>
             </div>
         </div>
         <div className={styles['packages-container']} data-aos="zoom-in">
@@ -44,7 +45,7 @@ const Packages = () => {
                 <p>- Educational websites</p>
                 <p>- Government websites</p>
                 <p>- Entertainment Websites</p>
-                <div><button>See More</button></div>
+                <div><Link to="packages"><button data-aos="zoom-in">See More</button></Link></div>
             </div>
         </div>
         <div className={styles['packages-container']}data-aos="flip-right">
@@ -57,7 +58,7 @@ const Packages = () => {
                 <p>- Desktop Application</p>
                 <p>- Software Design</p>
                 <p>- Game Design</p>
-                <div><button data-aos="zoom-in">See More</button></div>
+                <div><Link to="packages"><button data-aos="zoom-in">See More</button></Link></div>
             </div>
         </div>
       </div>
